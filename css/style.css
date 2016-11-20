@@ -1,0 +1,154 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Courgette|Merriweather:300i|Rancho');
+
+.container-fluid {
+    margin: auto;
+/*    background-color: lightgreen;  */
+}
+
+/* navbar background color */
+#myNavbar ul {
+    background-color: orange;  
+}
+
+
+.bumper{
+    background-color: tan;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* gallery spacer */
+#whatorder {
+    margin: auto;
+    background-color: tan;
+    width: 700px;
+}
+/* gallery spacer */
+
+/* william tell video */
+.willtell {
+    width: 560px;
+    margin: auto;
+    padding: 0px;
+    border: 0px;
+/*    background-color: lightgreen;   */
+}
+/* william tell video */
+
+
+/* horse resort & stable */
+.horseresort {
+    width: 615px;
+    margin: auto;
+    padding: 0px;
+    border: 0px;
+/*    background-color: lightgreen;  */
+}
+/* horse resort & stable */
+
+#brown {color: brown;
+    width: 615px;
+    margin: auto;
+    padding: 0px;
+    border: 0px;
+}
+
+#weekly-schedule {
+  border: solid #361215 2px;
+  padding: 20px;
+  margin: 5px;
+}
+
+/* vertical & horizontal forms */
+/*limit width */
+.form-group {
+    margin: 40px;
+}
+
+.transparent {
+  background:rgba(86, 154, 205, 0.5);
+}
+
+/* horizontal forms */
+/*limit width */
+.form-horizontal {
+    margin: 10%;
+}
+
+/* colors font in carousel img */
+.orange {
+    color: orange;
+    font-size-adjust: 20px;
+}
+
+/* centers img in carousel  */
+.carousel-inner img {
+  margin: auto;
+}
+
+/*
+.carousel img {
+    min-width: 100%;
+} */
+/* end choose a way to center img in carousel */
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url("http://s0.geograph.org.uk/geophotos/03/97/06/3970669_1dea2351.jpg");
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.video-responsive {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed,
+.video-responsive video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*  background image for website start 
+body:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("http://s0.geograph.org.uk/geophotos/03/97/06/3970669_1dea2351.jpg");
+    width: 100%;
+    height: 100%;
+    opacity : 0.2;
+    z-index: -2;
+    background image for website end */
+/* view port resizing stuff */
+@media only screen and (max-width: 699px) {
+    #header-img {
+        display: none;
+        margin: 15px;
+    }
+    }
+    @media only screen and (min-width: 699px) and (max-width: 1024px) {
+        #ride {
+            margin-top: 15px;
+            background-color: forestgreen;
+        }
+    }
+        @media only screen and (min-width: 1024px) {
+            #header-img {margin-top: 15px;
+        }
+    }
