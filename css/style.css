@@ -11,6 +11,12 @@
     background-color: orange;  
 }
 
+/* gallery page background color */
+#google2 {
+    background-color: #E0ED4A;
+    font
+}
+
 
 .bumper{
     background-color: tan;
@@ -24,6 +30,24 @@
     background-color: tan;
     width: 700px;
 }
+
+/* Kentucky Derby Special */
+#offer {
+    height:120px;
+    width:350px;
+ /*   background-color:#E0ED4A; */
+    border-radius:50px;
+    font-family:monospace;
+    font-size:35px;
+    font-weight:200;
+    text-align:center;
+    padding:20px;
+    display:inline-block;
+    margin-top:20px;
+}
+/*Derby Special*/
+
+
 /* gallery spacer */
 
 /* william tell video */

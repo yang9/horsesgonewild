@@ -7,5 +7,5 @@ $(document).ready(function() {
     /*    $('#wrapper').tubular({videoId: 'Xm4huNBW0Ho'});  */
 });
 
-$('#offer').delay(2000).fadeTo('medium', 0);
+$('#offer').delay(3000).fadeTo('medium', 0);
 //fadeOut('slow');
