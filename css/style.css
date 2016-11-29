@@ -78,6 +78,13 @@
     border: 0px;
 }
 
+/* modals styling on class schedule page */ 
+ 
+.modal .btn-default {
+    background-color: #BFAAAC;
+    border-color: #361215;
+    }
+
 #weekly-schedule {
   border: solid #361215 2px;
   padding: 20px;
